@@ -78,53 +78,54 @@ we provide dependable, affordable service throughout Central Kentucky.
 
 </div>
 
-<form
-class="quote-form large-form"
-action="https://formspree.io/f/YOUR_FORM_ID"
-method="POST">
+<div class="quote-form large-form">
 
 <h2>Get Started</h2>
 
 <div class="form-row">
-<input type="text" name="name" placeholder="Full Name" required>
+    <input id="name" type="text" placeholder="Full Name" required>
 
-<input type="email" name="email" placeholder="Email Address" required>
+    <input id="email" type="email" placeholder="Email Address">
 </div>
 
 <div class="form-row">
-<input type="tel" name="phone" placeholder="Phone Number">
+    <input id="phone" type="tel" placeholder="Phone Number">
 
-<input type="text" name="city" placeholder="City">
+    <input id="city" type="text" placeholder="City">
 </div>
 
-<select name="service" required>
+<select id="service">
 
-<option value="">Select A Service</option>
+    <option value="">Select A Service</option>
 
-<option>Trash Bin Cleaning</option>
+    <option>Trash Bin Cleaning</option>
 
-<option>Pressure Washing</option>
+    <option>Pressure Washing</option>
 
-<option>Driveway Cleaning</option>
+    <option>Driveway Cleaning</option>
 
-<option>Sidewalk Cleaning</option>
+    <option>Sidewalk Cleaning</option>
 
-<option>Commercial Cleaning</option>
+    <option>Commercial Cleaning</option>
 
-<option>Dumpster Pad Cleaning</option>
+    <option>Dumpster Pad Cleaning</option>
 
 </select>
 
 <textarea
-name="message"
+id="message"
 placeholder="Tell us about your project..."
 required></textarea>
 
-<button type="submit">
-Request Free Quote
+<button
+type="button"
+onclick="sendTextQuote()">
+
+📱 Text Us For A Free Quote
+
 </button>
 
-</form>
+</div>
 
 </section>
 
