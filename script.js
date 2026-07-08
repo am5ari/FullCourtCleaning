@@ -8,7 +8,7 @@ function sendTextQuote(){
     const email = document.getElementById("email").value;
     const phone = document.getElementById("phone").value;
     const city = document.getElementById("city").value;
-    const message = document.getElementById("day").value;
+    const day = document.getElementById("day").value;
     const service = document.getElementById("service").value;
     const message = document.getElementById("message").value;
 
